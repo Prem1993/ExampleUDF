@@ -7,16 +7,16 @@ import org.apache.hadoop.io.*;
 // Description of the UDF
 @Description(
         name="ExampleUDF",
-        value="returns a lower case version of the input string.",
+        value="returns a random double.",
         extended="select ExampleUDF(deviceplatform) from hivesampletable limit 10;"
 )
-public class RandomInteger extends UDF {
+public class RandomDouble extends UDF {
     // Accept a string input
-    public long evaluate(Integer input) {
+    public double evaluate(Double input) {
         // If the value is null, return a null
         if(input == null)
             return 0;
-        long number = (long) Math.floor(Math.random() * 9_000_000_000L) + 1_000_000_000L;
+        double number = (double) Math.floor(Math.random() * 9_000_000_000L) + 1_000_000_000L;
         // Lowercase the input string and return it
         return number;
     }

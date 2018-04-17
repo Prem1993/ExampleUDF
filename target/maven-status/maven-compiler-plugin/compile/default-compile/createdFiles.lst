@@ -1,3 +1,6 @@
-com/wipro/UDFs/ExampleUDF.class
+com/wipro/UDFs/RandomTimestamp.class
 com/wipro/UDFs/RandomString.class
+com/wipro/UDFs/RandomDouble.class
+com/wipro/UDFs/RandomDate.class
+com/wipro/UDFs/ExampleUDF.class
 com/wipro/UDFs/RandomInteger.class
