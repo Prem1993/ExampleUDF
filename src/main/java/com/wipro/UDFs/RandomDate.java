@@ -18,7 +18,7 @@ import java.util.concurrent.ThreadLocalRandom;
 )
 public class RandomDate extends UDF {
     // Accept a string input
-    public Date evaluate(Timestamp input) {
+    public Date evaluate(String input) {
         // If the value is null, return a null
         if(input == null)
             return null;

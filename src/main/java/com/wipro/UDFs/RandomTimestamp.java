@@ -17,12 +17,12 @@ import java.util.concurrent.ThreadLocalRandom;
 )
 public class RandomTimestamp extends UDF {
     // Accept a string input
-    public Timestamp evaluate(Timestamp input) {
+    public Timestamp evaluate(String input) {
         // If the value is null, return a null
         if(input == null)
             return null;
 
-        long offset = Timestamp.valueOf("2012-01-01 00:00:00").getTime();
+        long offset = Timestamp.valueOf("1990-01-01 00:00:00").getTime();
         long end = Timestamp.valueOf("2013-01-01 00:00:00").getTime();
         long diff = end - offset + 1;
         Timestamp rand = new Timestamp(offset + (long)(Math.random() * diff));
