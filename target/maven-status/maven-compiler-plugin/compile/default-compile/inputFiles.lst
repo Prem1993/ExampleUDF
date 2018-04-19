@@ -2,5 +2,6 @@
 /home/cloudera/ExampleUDF/src/main/java/com/wipro/UDFs/RandomDouble.java
 /home/cloudera/ExampleUDF/src/main/java/com/wipro/UDFs/RandomDate.java
 /home/cloudera/ExampleUDF/src/main/java/com/wipro/UDFs/RandomInteger.java
+/home/cloudera/ExampleUDF/src/main/java/com/wipro/UDFs/RandomPhone.java
 /home/cloudera/ExampleUDF/src/main/java/com/wipro/UDFs/RandomTimestamp.java
 /home/cloudera/ExampleUDF/src/main/java/com/wipro/UDFs/RandomString.java
