@@ -4,10 +4,6 @@ import org.apache.hadoop.hive.ql.exec.Description;
 import org.apache.hadoop.hive.ql.exec.UDF;
 
 import java.sql.Timestamp;
-import java.time.LocalDate;
-import java.util.Date;
-import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 // Description of the UDF
 @Description(

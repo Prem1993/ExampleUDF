@@ -1,3 +1,4 @@
+/*
 
 package com.wipro.UDFs;
 import org.apache.hadoop.hive.ql.exec.Description;
@@ -32,3 +33,4 @@ public class RandomDate extends UDF {
         return randomDate;
     }
 }
+*/
