@@ -20,8 +20,7 @@ public class RandomString extends UDF {
     // Accept a string input
     public String evaluate(String input) {
         // If the value is null, return a null
-        if(input == null)
-            return null;
+
         int len=10;
         StringBuilder sb = new StringBuilder( len );
         for( int i = 0; i < len; i++ )

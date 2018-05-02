@@ -14,10 +14,6 @@ public class RandomPhone extends UDF {
     // Accept a string input
     public String evaluate(String input) {
         // If the value is null, return a null
-        if(input == null || input.equalsIgnoreCase("null"))
-            return null;
-        if (input.equals("0"))
-            return "0";
         long number = (long) Math.floor(Math.random() * 9_000_000_000L) + 1_000_000_000L;
         String str=Long.toString(number);
         // Lowercase the input string and return it

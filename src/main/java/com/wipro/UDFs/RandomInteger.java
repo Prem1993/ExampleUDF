@@ -14,8 +14,7 @@ public class RandomInteger extends UDF {
     // Accept a string input
     public long evaluate(Integer input) {
         // If the value is null, return a null
-        if(input == null)
-            return 0;
+
         long number = (long) Math.floor(Math.random() * 9_000_000_000L) + 1_000_000_000L;
         // Lowercase the input string and return it
         return number;

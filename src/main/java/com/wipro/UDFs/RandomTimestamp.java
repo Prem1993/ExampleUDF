@@ -15,8 +15,7 @@ public class RandomTimestamp extends UDF {
     // Accept a string input
     public Timestamp evaluate(String input) {
         // If the value is null, return a null
-        if(input == null || input.equalsIgnoreCase("null"))
-            return null;
+
 
         long offset = Timestamp.valueOf("1920-01-01 00:00:00").getTime();
         long end = Timestamp.valueOf("1980-01-01 00:00:00").getTime();
